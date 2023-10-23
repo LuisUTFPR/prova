@@ -3,7 +3,7 @@ import { text } from 'stream/consumers'
 
 export default function Home() {
   return (
-<h1>HealthCare </h1>
+<h1>HealthCare 2.0 </h1>
 
 
   )
