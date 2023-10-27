@@ -7,7 +7,18 @@ export default function Header() {
                   <span className="text-white">Health</span>
                   <span className="text-orange-400">Care</span>
                 </h1>
-
+                <nav>
+                  <ul className="flex space-x-4 text-white">
+                    <li>
+                      <a
+                        href="#"
+                        className="linetext-[white] bg-orange-500 px-8 py-[8px] rounded hover:bg-blue-600 hover:text-white"
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
               <div className="container mx-auto mt-40 text-left text-white m-10">
                 <div className="ml-4 w-2/3 mx-auto">
