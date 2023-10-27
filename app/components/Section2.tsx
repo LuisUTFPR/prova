@@ -12,7 +12,7 @@ export default function Section2() {
         <div className="w-full md:w-1/3 p-2">
           <div className="bg-white rounded-lg shadow-lg">
             <img
-              src="/img/emily.jpg"
+              src="/img/emily.svg"
               alt="Dr. Emily Smith"
               className="w-full h-auto"
             />
@@ -23,7 +23,7 @@ export default function Section2() {
         <div className="w-full md:w-1/3 p-2">
           <div className="bg-white rounded-lg shadow-lg">
             <img
-              src="/img/james.jpg"
+              src="/img/james.svg"
               alt="Dr. [Nome do Médico]"
               className="w-full h-auto"
             />
@@ -34,7 +34,7 @@ export default function Section2() {
         <div className="w-full md:w-1/3 p-2">
           <div className="bg-white rounded-lg shadow-lg">
             <img
-              src="/img/michel.jpg"
+              src="/img/michel.svg"
               alt="Dr. [Nome do Médico]"
               className="w-full h-auto"
             />
