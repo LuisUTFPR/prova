@@ -1,16 +1,15 @@
 export default function Section2() {
     return (
       <section className="container mx-auto mt-8 text-black">
-        <header className="text-left">
-          <h2 className="text-3xl ml-8 font-bold">Our Special Doctors</h2>
-          <p className="text-base my-4 text-xl ml-8">
+        <header className="text-center">
+          <h2 className="text-4xl font-bold ml-8 text-left">Our Special Doctors</h2>
+          <p className="text-xl text-left ml-8 my-4">
             We take pride in our exceptional team of doctors, each a specialist in their respective fields.
           </p>
         </header>
         <div className="flex flex-wrap">
-       
           <div className="w-full md:w-1/3 p-2">
-            <div className="bg-white rounded-lg shadow-lg text-center">
+            <div className="bg-white rounded-lg shadow-lg text-center p-6">
               <img
                 src="/img/emily.svg"
                 alt="Dr. Emily Smith"
@@ -21,9 +20,8 @@ export default function Section2() {
             </div>
           </div>
   
-          
           <div className="w-full md:w-1/3 p-2">
-            <div className="bg-white rounded-lg shadow-lg text-center">
+            <div className="bg-white rounded-lg shadow-lg text-center p-6">
               <img
                 src="/img/james.svg"
                 alt="Dr. James Anderson"
@@ -34,9 +32,8 @@ export default function Section2() {
             </div>
           </div>
   
-      
           <div className="w-full md:w-1/3 p-2">
-            <div className="bg-white rounded-lg shadow-lg text-center">
+            <div className="bg-white rounded-lg shadow-lg text-center p-6">
               <img
                 src="/img/michel.svg"
                 alt="Dr. Michael Lee"
