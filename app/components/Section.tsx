@@ -5,10 +5,10 @@ export default function Section() {
         <h2 className="text-4xl font-bold ml-8 text-left">Our Special Service</h2>
       </header>
       <div className="flex flex-wrap">
-        <div className="w-full md:w-1/2 p-2 mb-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 p-2 mb-4">
           <div className="bg-white rounded-lg shadow-lg text-center">
             <img
-              src="/img/test1.svg"
+              src="/img/card-image1.jpg"
               alt="Card Image 1"
               className="w-24 h-24 m-auto mt-4"
             />
@@ -22,10 +22,10 @@ export default function Section() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 p-2 mb-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 p-2 mb-4">
           <div className="bg-white rounded-lg shadow-lg text-center">
             <img
-              src="/img/test2.svg"
+              src="/img/card-image2.jpg"
               alt="Card Image 2"
               className="w-24 h-24 m-auto mt-4"
             />
@@ -39,10 +39,10 @@ export default function Section() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 p-2 mb-4">
+        <div className="w-full sm:w-1/2 md:w-1/3 p-2 mb-4">
           <div className="bg-white rounded-lg shadow-lg text-center">
             <img
-              src="/img/test3.svg"
+              src="/img/card-image3.jpg"
               alt="Card Image 3"
               className="w-24 h-24 m-auto mt-4"
             />
