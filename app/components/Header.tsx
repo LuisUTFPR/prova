@@ -4,7 +4,6 @@ export default function Header() {
       <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between w-full">
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-0">
-            {/* Aplicando estilos diferentes às palavras "health" e "care" */}
             <span className="text-white">Health</span>
             <span className="text-orange-400 my">Care</span>
           </h1>
