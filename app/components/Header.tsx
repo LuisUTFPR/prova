@@ -1,5 +1,6 @@
 export default function Header() {
     return (
+
             <header className="bg-[#12AC8E] p-10">
               <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-3xl font-bold ">
@@ -8,12 +9,14 @@ export default function Header() {
                 </h1>
                 <nav>
                   <ul className="flex space-x-4 text-white">
-                 
-                      <a href="#"
+                    <li>
+                      <a
+                        href="#"
                         className="linetext-[white] bg-orange-500 px-8 py-[8px] rounded hover:bg-blue-600 hover:text-white"
                       >
                         Contact Us
                       </a>
+                    </li>
                   </ul>
                 </nav>
               </div>
