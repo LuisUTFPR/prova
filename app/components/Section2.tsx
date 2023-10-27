@@ -2,8 +2,8 @@ export default function Section2() {
     return (
       <section className="container mx-auto mt-8 text-black">
         <header className="text-center">
-          <h2 className="text-4xl font-bold ml-8 text-left">Our Special Doctors</h2>
-          <p className="text-xl text-left ml-8 my-4">
+          <h2 className="text-6xl font-bold ml-8 text-left">Our Special Doctors</h2>
+          <p className="text-3xl text-left ml-8 my-4">
             We take pride in our exceptional team of doctors, each a specialist in their respective fields.
           </p>
         </header>
