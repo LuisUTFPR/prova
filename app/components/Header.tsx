@@ -8,13 +8,12 @@ export default function Header() {
                 </h1>
                 <nav>
                   <ul className="flex space-x-4 text-white">
-                    <li>
-                    <a
-  href="#"
-  className="linetext-[white] bg-orange-500 px-8 py-[8px] rounded hover:bg-blue-600 hover:text-white"
->
-  Contact Us
-</a>
+                 
+                      <a href="#"
+                        className="linetext-[white] bg-orange-500 px-8 py-[8px] rounded hover:bg-blue-600 hover:text-white"
+                      >
+                        Contact Us
+                      </a>
                   </ul>
                 </nav>
               </div>
