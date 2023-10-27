@@ -10,28 +10,31 @@ export default function Section() {
 </p>
 
 <div className="flex flex-wrap justify-start">
-    <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
-        <h3 className="text-xl font-bold">Laboratory Test</h3>
-        <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
-        <div className="flex justify-center">
-            <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+        <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
+            <img src="caminho/para/sua/imagem1.jpg" alt="Imagem 1" className="w-full h-auto">
+            <h3 className="text-xl font-bold">Laboratory Test</h3>
+            <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
+            <div className="flex justify-center">
+                <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+            </div>
+        </div>
+        <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
+            <img src="caminho/para/sua/imagem2.jpg" alt="Imagem 2" className="w-full h-auto">
+            <h3 className="text-xl font-bold">Health Check</h3>
+            <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
+            <div className="flex justify-center">
+                <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+            </div>
+        </div>
+        <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
+            <img src="caminho/para/sua/imagem3.jpg" alt="Imagem 3" className="w-full h-auto">
+            <h3 className="text-xl font-bold">General Dentistry</h3>
+            <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
+            <div className="flex justify-center">
+                <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+            </div>
         </div>
     </div>
-    <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
-        <h3 className="text-xl font-bold">Health Check</h3>
-        <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
-        <div className="flex justify-center">
-            <a href="#" className="text-blue-500 hover:underline">Learn More</a>
-        </div>
-    </div>
-    <div className="w-1/3 p-2 bg-white rounded-lg shadow-lg">
-        <h3 className="text-xl font-bold">General Dentistry</h3>
-        <p className="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem a dui tempus auctor.</p>
-        <div className="flex justify-center">
-            <a href="#" className="text-blue-500 hover:underline">Learn More</a>
-        </div>
-    </div>
-</div>
 
 </section>
 );
