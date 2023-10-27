@@ -8,7 +8,7 @@ export default function Section2() {
           </p>
         </header>
         <div className="flex flex-wrap">
-          {/* Primeiro Card */}
+       
           <div className="w-full md:w-1/3 p-2">
             <div className="bg-white rounded-lg shadow-lg text-center">
               <img
@@ -21,7 +21,7 @@ export default function Section2() {
             </div>
           </div>
   
-          {/* Segundo Card */}
+          
           <div className="w-full md:w-1/3 p-2">
             <div className="bg-white rounded-lg shadow-lg text-center">
               <img
@@ -34,7 +34,7 @@ export default function Section2() {
             </div>
           </div>
   
-          {/* Terceiro Card */}
+      
           <div className="w-full md:w-1/3 p-2">
             <div className="bg-white rounded-lg shadow-lg text-center">
               <img
