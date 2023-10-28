@@ -85,6 +85,7 @@ export default function Footer() {
             <span className="text-sm text-white  sm:text-center"
               >© 2023 <a href="#"> Copyright © 2023 Web Design Mastery. All rights reserved.
             </span>
+            <a/>
             <a href="">
               <svg
                   fill="white"
