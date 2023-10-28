@@ -1,10 +1,10 @@
 export default function Footer() {
     return (
       <div>
-        <Head>
+        <Header>
           <title>Your Healthcare</title>
           <link rel="icon" href="/favicon.ico" />
-        </Head>
+        </Header>
   
         <header className="bg-[#12AC8E] py-4">
           <div className="container mx-auto flex items-center justify-between">
@@ -42,7 +42,7 @@ export default function Footer() {
               </div>
   
               <div>
-                {/* Conteúdo do outro lado da seção */}
+               
               </div>
             </div>
           </section>
